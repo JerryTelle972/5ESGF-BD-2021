@@ -22,7 +22,7 @@ Elle est formée de 3 classes et d'une interface :
 
 Nous avons apporté une modification au code original. Nous avons remarqué que la grille de sudoku était de type dictionnaire. Notre objectif était de récupérer le type dictionnaire afin de le modifier en type sudoku. Ci-joint la méthode sudoku intégrée dans la classe Sudoku:
 
-<img src="assets/images/sudoku.jpg">
+![méthode Sudoku](https://github.com/JerryTelle972/5ESGF-BD-2021/blob/main/TP_Sudoku_Spark/assets/images/sudoku.JPG?raw=true)
 
 ### L'intégration des  métohdes runSpark et  Sudokusolution 
 
