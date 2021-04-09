@@ -29,10 +29,10 @@ Nous avons apporté une modification au code original. Nous avons remarqué que 
 Dans la classe Sudoku spark nous avons intégré deux métodes : 
 
 - La méthode runSpark : 
-![RunSpark](assets/images/runSpark.jpg)
+    ![RunSpark](https://github.com/JerryTelle972/5ESGF-BD-2021/blob/main/TP_Sudoku_Spark/assets/images/runSpark.JPG?raw=true)
 
 - La méthode SudokuSolver 
-![image](assets/images/sudokuSolution.jpg)
+![image](https://github.com/JerryTelle972/5ESGF-BD-2021/blob/main/TP_Sudoku_Spark/assets/images/sudokuSolution.JPG?raw=true)
 
 La première méthode permet d'initialiser SparkSession avec les paramètres pour le nombre de coeurs et le nombre d'instances. Puis de créer un Dataframe et afin de transférer les données du csv dessus.
 Il contient également la création de l'UDF Spark et l'appel de cette UDF au travers d'une requete SQL.
@@ -54,7 +54,7 @@ Les résultats obtenus sont les suivants :
 
 1 core 5 instance : 3.239 s
 
-![image](assets/images/500.jpg)
+![image](https://github.com/JerryTelle972/5ESGF-BD-2021/blob/main/TP_Sudoku_Spark/assets/images/500.JPG?raw=true)
 
 **1000 sudokus**
 
@@ -62,7 +62,7 @@ Les résultats obtenus sont les suivants :
 
 1 core 5 instance : 4.645 s
 
-![image](assets/images/800.jpg)
+![image](https://github.com/JerryTelle972/5ESGF-BD-2021/blob/main/TP_Sudoku_Spark/assets/images/800.JPG?raw=true)
 
 **Conclusion** 
 
